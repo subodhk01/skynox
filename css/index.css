@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.9);
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    font-family: "Abril";
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-primary {
+    color: #16e571;
+}
+
+.margin-bottom {
+    margin-bottom: 1.4rem;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.font-nunito {
+    font-family: "Nunito";
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.row {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.section-half {
+    width: 100%;
+    padding: 1rem;
+}
+
+.img-section {
+    max-width: 500px;
+    margin: auto;
+}
+
+.section-container {
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .section-half {
+        width: 50%;
+    }
+    .section-container {
+        display: flex;
+    }
+}
+
+.image-row {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-box {
+    padding: 0.4rem;
+}
+
+.image-row img {
+    width: 100%;
+}
+
+.star-row {
+    margin: 0.4rem 0;
+}
+
+.star-row img {
+    margin: 0 0.2rem;
+    width: 15px;
+}
+
+.btn-box {
+    padding: 0.8rem 0;
+}
+
+.btn {
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    margin: 0.4rem;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.912);
+}
+
+.btn-hollow {
+    color: rgba(0, 0, 0, 0.912);
+    border: 1px solid rgba(0, 0, 0, 0.912);
+}
+
+.feature-row {
+    justify-content: space-between;
+}
+.feature-box {
+    max-width: 250px;
+    margin: 1rem 0;
+}
+
+/* @media (min-width: 992px) {
+    .feature-box {
+        width: 50%;
+    }
+} */
+.feature-content h3 {
+    margin: 0;
+}
+.feature-content p {
+    margin: 0;
+    color:rgba(0, 0, 0, 0.576)
+}
+.feature-img {
+    padding: 0.3rem 0.8rem;
+}
+.feature-img img {
+    min-width: 30px;
+    height: 30px;
+}
+
+.carousel-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.carousel-button {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: white;
+}
+.carousel-button img {
+    width: 13px;
+}
+.carousel-button-left img {
+    margin-right: 2px;
+}
+.carousel-button-right img {
+    margin-left: 2px;
+}
